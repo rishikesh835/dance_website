@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@0,100;1,300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+#logo{
+    display: flex;
+    color: whitesmoke;
+    align-items: center;
+    margin: 0 14px;
+    height: 20px;
+}
+#logo img{
+    height:20px;
+    margin-right: 4px;
+    filter: invert(1);
+}
+#navbar {
+    background-color: rgba(0, 0, 0, 0.597);
+    padding: 13px 30px;
+}
+
+#navbar ul {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 3px 10px;
+    color: white;
+}
+#mission{
+    width: 67%;
+    margin: auto;
+    height: 380px;
+}
+#mission h2{
+    font-family: 'Caveat', cursive; 
+    text-align: center;
+    padding-top: 12px;
+    font-size: 60px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 23px;
+    height: 209px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 16px;
+
+}
+.card-img img{
+    height: inherit;
+    
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 19px;
+}
+#introSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    font-size: 80px;
+    font-weight: 700;
+    color: green;
+    padding-bottom: 40px;
+    /* background-color: red; */
+    background: url('https://images.unsplash.com/photo-1604954055722-7f80571fbfc3?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+}
+#introSection div.small{
+    font-size: 50px;
+}
+#sponsorSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 80px;
+    font-weight: 700;
+    color: green;
+    background-color: aquamarine;
+}
+#sponsorSection h3{
+    font-family: 'Caveat', cursive; 
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+
+}
+#sponsors{
+    height: 190px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+#footer {
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    height: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

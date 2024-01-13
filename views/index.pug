@@ -1,0 +1,58 @@
+doctype html 
+html    
+    head 
+        title Dance-academy
+        style 
+            include ../static/style.css 
+            
+    body 
+        nav#navbar.top 
+            ul  
+                div#logo 
+                    img(src="../static/images/download (1).jpeg")
+                    | HDA
+                li #[a(href="/") Home ]
+                li #[a(href="/") About]
+                li #[a(href="/") Class info ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") contact us]
+        section#introSection 
+            div welcome to harry dance academy 
+            div.small Eat sleep dance repeat
+        section#mission 
+            h2 our mission
+            div.card 
+                h3 this a cards using pug
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/images/download (3).jpeg")
+                    div.card-content 
+                        p this is the best dance academy of the universe
+            div.card 
+                h3 this a cards using pug
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/images/download (3).jpeg")
+                    div.card-content 
+                        p this is the best dance academy of the universe
+            div.card 
+                h3 this a cards using pug
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/images/download (3).jpeg")
+                    div.card-content 
+                        p this is the best dance academy of the universe
+        section#sponsorSection 
+             h3 section for sponsers 
+             div#sponsors 
+                img(src="/static/images/download (5).jpeg", alt="sponsors" Class="spimage")
+                img(src="/static/images/download (6).jpeg", alt="sponsors" Class="spimage")
+                img(src="/static/images/download (8).jpeg", alt="sponsors" Class="spimage")
+                img(src="/static/images/download (9).jpeg", alt="sponsors" Class="spimage")
+                img(src="/static/images/download (14).jpeg", alt="sponsors" Class="spimage")
+                img(src="/static/images/images (5).jpeg", alt="sponsors" Class="spimage")
+        footer#footer 
+            | copyright &#169 2019 danceacademy.com
+            
+        script 
+            include ../static/index.js 

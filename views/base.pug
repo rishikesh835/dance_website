@@ -1,0 +1,24 @@
+//- layout.pug
+doctype html
+html
+  head
+    title Dance-academy
+    block scripts
+    block style
+      
+  body
+    nav#navbar.top 
+      ul  
+        div#logo 
+          img(src="../static/images/download (1).jpeg")
+          | HDA
+        li #[a(href="/") Home ]
+        li #[a(href="/") About]
+        li #[a(href="/") Class info ]
+        li #[a(href="/") Services ]
+        li #[a(href="/") contact us]
+
+    block content
+    footer#footer 
+      | copyright &#169 2019 danceacademy.com
+    
